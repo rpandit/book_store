@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @medium.title %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @medium.author %>
+</p>
+
+<p>
+  <b>Publisher:</b>
+  <%= @medium.publisher %>
+</p>
+
+<p>
+  <b>Published at:</b>
+  <%= @medium.published_at.strftime("%B %e, %Y") %>
+</p>
+
+<p>
+  <b>Unit cost:</b>
+  <%= number_to_currency(@medium.unit_cost) %>
+</p>
+<p>
+  <b>Price:</b>
+  <%=number_to_currency(@medium.price) %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @medium.category %>
+</p>
+
+
+<%= link_to 'Back', media_path %>

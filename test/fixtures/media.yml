@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: title1
+  author: author1
+  publisher: publisher1
+  published_at: 2013-01-11
+  unit_cost: 9.99
+  category: Book
+
+two:
+  title: title2
+  author: author2
+  publisher: publisher2
+  published_at: 2013-01-11
+  unit_cost: 9.99
+  category: Audiobook
+  
+three:
+  title: title3
+  author: author3
+  publisher: publisher3
+  published_at: 2013-01-11
+  unit_cost: 9.99
+  category: Magazine

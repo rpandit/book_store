@@ -1,0 +1,36 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require jquery.ui.core
+ *= require jquery.ui.theme
+ *= require dataTables/jquery.dataTables
+ *= require_tree .
+ */
+#mian_outer_container{
+   margin: 2em;
+}
+.header-logged-out {
+    padding: 10px 0;
+}
+.header {
+    border-bottom: 1px solid #E5E5E5;
+    text-shadow: 0 2px 0 #FFFFFF;
+    font-weight: bold;
+    font-size: 2em;
+    height:2em;
+}
+.devider {
+  width:100%;
+  background-color: #2e2e2e;
+  color: #FFFFFF;
+  font-weight: normal;
+  padding: 2px;
+ }

@@ -1,0 +1,28 @@
+<div class="devider">Listing media</div>
+
+
+<table id="media_table" class="display" data-source="<%= media_url(format: "json") %>">
+	<thead>
+	  <tr>
+	    <th>Id</th>
+	    <th>Title</th>
+	    <th>Author</th>
+	    <th>Publisher</th>
+	    <th>Category</th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+
+<br />
+
+
+<p>
+	<%= link_to 'New Medium', new_medium_path %> | <%= link_to "Import media", new_medium_import_path %>
+</p>
+
+
+
